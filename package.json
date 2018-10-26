@@ -1,0 +1,13 @@
+{
+  "name": "sharp-test",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test1": "node test.js 1062.png",
+    "test2": "node test.js 8000.jpg",
+    "test3": "node test.js 8000.png"
+  },
+  "dependencies": {
+    "sharp": "^0.21.0"
+  }
+}
