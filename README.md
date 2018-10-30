@@ -11,3 +11,8 @@ cd sharp-test
 docker build -t sharptest .
 docker run sharptest
 ```
+
+## Vips using RAM
+```
+docker run -e VIPS_DISC_THRESHOLD=200m sharptest
+```
